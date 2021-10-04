@@ -1,21 +1,17 @@
-# ListFilter
+<p align="left">
+   <img src="https://dg8krxphbh767.cloudfront.net/tracks/elixir.svg" />
+</p>
 
-**TODO: Add description**
+# Odd List Filter 
 
-## Installation
+Elixir algorithm exercise to filter odd numbers from a given string list and return its quantity
 
-If [available in Hex](https://hex.pm/docs/publish), the package can be installed
-by adding `list_filter` to your list of dependencies in `mix.exs`:
+## Interesting Resources
+- [Integer.parse](https://hexdocs.pm/elixir/1.12/Integer.html#parse/2)
+- [Integer guards](https://hexdocs.pm/elixir/1.12/Integer.html#guards)
+- [Enumerable module](https://hexdocs.pm/elixir/1.12/Enum.html)
 
+## Module Usage
 ```elixir
-def deps do
-  [
-    {:list_filter, "~> 0.1.0"}
-  ]
-end
+  ListFilter.call(["1", "3", "6", "43", "banana", "6", "abc"]) # Result: 3
 ```
-
-Documentation can be generated with [ExDoc](https://github.com/elixir-lang/ex_doc)
-and published on [HexDocs](https://hexdocs.pm). Once published, the docs can
-be found at [https://hexdocs.pm/list_filter](https://hexdocs.pm/list_filter).
-
